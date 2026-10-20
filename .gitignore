@@ -1,0 +1,52 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+.pytest_cache/
+.mypy_cache/
+
+.env
+
+
+# =========================
+# ROS 2
+# =========================
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+
+# =========================
+# Unreal Engine
+# =========================
+unreal/**/Binaries/
+unreal/**/DerivedDataCache/
+unreal/**/Intermediate/
+unreal/**/Saved/
+unreal/**/.vs/
+
+
+# =========================
+# Geographic data / cache
+# =========================
+geo_data/raw/
+geo_data/cache/
+
+
+# =========================
+# Experiment generated data
+# =========================
+experiments/runs/
+
+
+# =========================
+# Editor / temporary files
+# =========================
+*.swp
+*.tmp
+*~
